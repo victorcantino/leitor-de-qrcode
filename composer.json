@@ -1,0 +1,17 @@
+{
+    "name": "victor/leitor-de-qrcode",
+    "require": {
+        "chillerlan/php-qrcode": "dev-main#<commit_hash>"
+    },
+    "autoload": {
+        "psr-4": {
+            "Victor\\LeitorDeQrcode\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Victor",
+            "email": "victor.cantino@gmail.com"
+        }
+    ]
+}
